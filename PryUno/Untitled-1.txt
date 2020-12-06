@@ -1,0 +1,21 @@
+
+
+
+
+
+<!--INSERTAR TEXTO -->
+<!--Tamaño va disminuyendo cada vez que el h sea mayor -->
+<!--TITULO - SUBTITULO -->
+<H1> Hola</H1>
+<h2>Hola</h2>
+<h3>Hola</h3>
+<h4>Hola</h4>
+<h5>Hola</h5>
+<h6>Hola</h6>
+<!--Comentarios:shift + Alt + A -->
+<!--label -->
+<label for="">Bienvenidos al sistema</label>
+<hr>
+<p>
+    <!--Aplicar negrita al texto con strong -->
+    <strong>Descripcion</strong>
