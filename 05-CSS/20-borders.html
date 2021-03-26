@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+<style>
+h2 {
+    border: 4px solid gray;
+    height: 250px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center;
+    width: 400px;
+}
+h2.bw {
+border-top-width: 10px;
+border-right-width: 20px;
+border-bottom-width: 10px;
+border-left-width: 20px;
+/*Shorthand*/
+border-width: 10px 20px; 
+}
+h2.bc {
+border-width: 10px;
+border-color: green red blue greenyellow;
+}
+h2.bs{
+border-width: 6px;
+border-style:solid  double dotted solid;
+}
+h2.bsh {
+    border-width: 20px;
+    border-color: greenyellow;
+    border-style: dotted;
+}
+
+</style>
+
+</head>
+<body>
+   <h1>Borde</h1>
+   <h2 class="bw">Border width</h2>
+   <h2 class="bc">Border width</h2>
+   <h2 class="bs">Border width</h2>
+   <h2 class="bsh">Border width</h2>
+
+
+</body>
+</html>
